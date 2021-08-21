@@ -17,7 +17,7 @@ function payablePrice(amount) {
     payablePrice.innerText = amount;
 }
 
-/* ----------------------------- Memory cost option part --------------------------------- */
+/* ------------------------------ Memory cost option part --------------------------------- */
 document.getElementById('btn-8gb').addEventListener('click', function () {
     const memoryCost = document.getElementById('extra-memory');
     memoryCost.innerText = '0';
