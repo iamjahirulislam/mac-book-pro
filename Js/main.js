@@ -17,7 +17,7 @@ function payablePrice(amount) {
     payablePrice.innerText = amount;
 }
 
-/* ----------------------------- Memory cost  --------------------------------- */
+/* ----------------------------- Memory cost option part --------------------------------- */
 document.getElementById('btn-8gb').addEventListener('click', function () {
     const memoryCost = document.getElementById('extra-memory');
     memoryCost.innerText = '0';
@@ -29,7 +29,7 @@ document.getElementById('btn-16gb').addEventListener('click', function () {
     totalPrice();
 });
 
-/* ---------------- storage cost ---------------------------*/
+/* ---------------- storage cost option part---------------------------*/
 document.getElementById('cost-of-256gb').addEventListener('click', function () {
     const storageCost = document.getElementById('storage-cost');
     storageCost.innerText = '0';
@@ -46,7 +46,7 @@ document.getElementById('cost-of-1tb').addEventListener('click', function () {
     totalPrice();
 });
 
-/* -----------------------------delivery --------------------------------------*/
+/* -----------------------------delivery option part--------------------------------------*/
 document.getElementById('delivery-free').addEventListener('click', function () {
     const deliveryFee = document.getElementById('delivery-fee');
     deliveryFee.innerText = '0';
@@ -58,7 +58,7 @@ document.getElementById('delivery-costly').addEventListener('click', function ()
     totalPrice()
 });
 
-/* --------------------------pomo code -------------------------------*/
+/* --------------------------pomo code part -------------------------------*/
 document.getElementById('p-btn').addEventListener('click', function () {
     const pField = document.getElementById('p-field');
     let PayablePrice = document.getElementById('payable-price').innerText;
